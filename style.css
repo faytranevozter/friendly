@@ -77,14 +77,14 @@ body {
 	line-height: 30px;
 	text-decoration: none;
 	color: #fff;
-	background-color: #6fb98f;
+	background-color: #008cba;
 	border-bottom: 1px solid #010;
 	text-align: center;
 }
 
 #menukiri a:hover, 
 #menukiri a.aktif {
-	background-color: #2c7873;
+	background-color: #016b8e;
 }
 #spasi {
 	padding: 10px;

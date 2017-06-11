@@ -1,18 +1,33 @@
+* {
+	border-radius: 20px !important;
+}
+
+body {
+	background-image: url('clouds.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-color: #BFDFEC;
+}
+
 #wadah {
 	width: 960px;
-	background-color: #34675c;
+	/*background-color: #34675c;*/
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #header {
 	height: 150px;
-	background-color: #555;
-	background-image: url('haha.jpg');
+	/*background-color: #555;*/
+	/*background-image: url('haha.jpg');*/
 	-webkit-background-size: cover;
 	background-size: cover;
 	-ms-background-position-y: -249px;
 	background-position-y: -249px;
+}
+
+#header img {
+	max-height: 100%;
 }
 
 .sekat{
@@ -23,7 +38,7 @@
 
 #menukiri{
 	width: 200px;
-	background-color: #34675c;
+	/*background-color: #34675c;*/
 	height: 500px;
 	display: inline-block;
 	float: left;
@@ -32,7 +47,7 @@
 #conten {
 	width: 760px;
 	min-height: 500px;
-	background-color: #98dbc6;
+	/*background-color: #98dbc6;*/
 	display: inline-block;
 	float: left;
 }
@@ -41,8 +56,9 @@
 	height: 50px;
 	background-color: #555;
 	text-align: center;
-	line-height: 40px;
+	line-height: 50px;
 	color: #fff;
+	border-radius: 5px;
 }
 
 #header h1 {

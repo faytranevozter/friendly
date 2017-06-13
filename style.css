@@ -79,7 +79,8 @@ body {
 	text-decoration: none;
 	color: #fff;
 	background-color: #008cba;
-	border-bottom: 1px solid #010;
+	border-bottom: 2px solid #8fc1da;
+	margin-bottom: 5px;
 	text-align: center;
 }
 

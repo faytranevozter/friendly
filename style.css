@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
 #wadah * {
 	border-radius: 20px !important;
 }
@@ -7,7 +9,7 @@ body {
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	background-color: #BFDFEC;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Slabo 27px', serif;
 }
 
 #wadah {

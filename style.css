@@ -127,3 +127,10 @@ body {
 	margin: 10px 0;
 	text-align: justify;
 }
+img[rel] {
+	opacity: .9;
+}
+img[rel]:hover {
+	cursor: pointer;
+	opacity: 1;
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 #wadah * {
-	border-radius: 20px !important;
+	border-radius: 10px !important;
 }
 
 body {
@@ -22,15 +22,22 @@ body {
 #header {
 	height: 150px;
 	/*background-color: #555;*/
-	/*background-image: url('haha.jpg');*/
+	background-image: url('haha.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
-	-ms-background-position-y: -249px;
-	background-position-y: -249px;
+	-ms-background-position-y: 0;
+	background-position-y: 0;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 1px 3px 3px 0px #333;
+	box-shadow: 1px 3px 3px 0px #333;
+	-webkit-filter: hue-rotate(100deg);
+	filter: hue-rotate(100deg);
 }
 
 #header img {
 	max-height: 100%;
+	-webkit-filter: hue-rotate(266deg);
+	filter: hue-rotate(266deg);
 }
 
 .sekat{
@@ -42,14 +49,14 @@ body {
 #menukiri{
 	width: 200px;
 	/*background-color: #34675c;*/
-	height: 500px;
+	height: auto;
 	display: inline-block;
 	float: left;
 }
 
 #conten {
 	width: 760px;
-	min-height: 500px;
+	min-height: auto;
 	/*background-color: #98dbc6;*/
 	display: inline-block;
 	float: left;
@@ -62,6 +69,8 @@ body {
 	line-height: 50px;
 	color: #fff;
 	border-radius: 5px;
+	-webkit-box-shadow: 1px 3px 3px 0px #333;
+	box-shadow: 1px 3px 3px 0px #333;
 }
 
 #header h1 {
@@ -81,9 +90,11 @@ body {
 	text-decoration: none;
 	color: #fff;
 	background-color: #008cba;
-	border-bottom: 2px solid #8fc1da;
+	border-bottom: 2px solid #333;
 	margin-bottom: 5px;
 	text-align: center;
+	-webkit-box-shadow: 2px 2px 3px 0px #333;
+    box-shadow: 2px 2px 3px 0px #333;
 }
 
 #menukiri a:hover, 
@@ -91,7 +102,7 @@ body {
 	background-color: #016b8e;
 }
 #spasi {
-	padding: 10px;
+	padding: 0px 10px 10px 24px;
 	color: #555;
 }
 #spasi a{
@@ -107,6 +118,8 @@ body {
 #spasi a img{
 	width: 100%;
 	max-height: 150px;
+	-webkit-box-shadow: 2px 2px 3px 0px #333;
+    box-shadow: 2px 2px 3px 0px #333;
 }
 #spasi a p{
 	color: #555;
@@ -131,8 +144,47 @@ body {
 }
 img[rel] {
 	opacity: .9;
+	margin-right: 10px;
+	-webkit-box-shadow: 2px 2px 3px 0px #333;
+    box-shadow: 2px 2px 3px 0px #333;
 }
 img[rel]:hover {
 	cursor: pointer;
 	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	#wadah, #header, #header img, #menukiri, #conten {
+		width: 100%;
+	}
+	#header {
+		height: 100px;
+	}
+	#header img {
+		max-height: 100%;
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+	#menukiri {
+		height: auto;
+		margin-bottom: 5px;
+	}
+	#menukiri a {
+		width: 100%;
+		height: 20px;
+		line-height: 20px;
+	}
+	#spasi {
+		padding: 0;
+		margin: 0;
+	}
+	#spasi a, #spasi img, #spasi a img {
+		width: 99%;
+		height: auto;
+		max-height: inherit;
+		display: block;
+		padding: 5px 0 0 0px;
+		margin: 0 auto 5px;
+	}
 }

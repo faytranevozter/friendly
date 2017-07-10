@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Friendly Tour Guide</title>
+	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../pp/css/prettyPhoto.css">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+	<script src="../pp/js/jquery-1.6.1.min.js"></script>
+	<script src="../pp/js/jquery.prettyPhoto.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("img[rel^=pp]").prettyPhoto({
+				// theme: 'facebook',
+				// slideshow: 5000, 
+				// autoplay_slideshow:true
+				// social_tools: ''
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wadah">
+		<!-- header -->
+		<div id="header">
+			<img src="../logo.png" alt="logo">
+		</div>
+		<!-- menukiri -->
+		<div id="menukiri">
+			<a class="aktif" href="../index.html">Home</a>
+			<a href="../gallery.html">Gallery</a>
+			<a href="../about.html">About Us</a>
+			<a href="../contact.html">Contact Us</a>
+		</div>
+		<!-- content -->
+		<div id="conten">
+			<div id="spasi">
+				<h4>Muhammad Fahrur Rifai</h4>
+				<img class="terserah kekiri" rel="pp" href="../gambar/fay.jpg" src="../gambar/fay.jpg" alt="fay">
+				
+				<table>
+					<tr> <td width="100"> Nama</td> <td> : Muhammad Fahrur Rifai</td> </tr>
+					<tr> <td> TTL</td> <td> : Sleman, 2 Maret 1997</td> </tr>
+					<tr> <td> Alamat</td> <td> : Gamping - Sleman</td></tr>
+					<tr> <td> Quote</td> <td> : Eh, mau bilang sesuatu, tapi ngga jadi aja lah</td> </tr>
+				</table>
+				<p>Muhammad Fahrur Rifai yang akrab dipanggil Fay, seorang yang setiap harinya menempuh perjalanan jauh dari barat ke timur dan timur ke barat, sehingga sering kali kita menyebutnya pembalap, pemuda berbadan gelap. Sering membuat orang disekitarnya kesal dengan kalimat "eh, ngga jadi aja", tapi disisi lain dia adalah seorang junior programmer yang handal. </p>
+			</div>
+		</div>
+		<!-- sekat -->
+		<div class="sekat"></div>
+		<!-- footer -->
+		<div id="footer">
+			Copyright &copy; Laily Rahma 2017
+		</div>
+	</div>
+</body>
+</html>

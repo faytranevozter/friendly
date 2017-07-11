@@ -73,6 +73,10 @@ body {
 	box-shadow: 1px 3px 3px 0px #333;
 }
 
+#footer a {
+	color: #fff;
+}
+
 #header h1 {
 	color: #eee;
 	font-family: Helvetica;
